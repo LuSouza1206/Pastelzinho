@@ -11,6 +11,8 @@ body {
   background-image: url('images/fundo.jfif');
   background-size: cover;
   background-position: center; 
+  
+ 
 }
 body::before {
   content: '';
@@ -20,7 +22,7 @@ body::before {
   right: 0;
   bottom: 0;
   left: 0;
-  /* background: rgba(255, 255, 255, 0.5); / */
+  background: rgba(255, 255, 255, 0.5); / 
   z-index: -1;
 }
 
@@ -52,7 +54,7 @@ body::before {
 }
 
 .nav-link:hover {
-  color: #d36d6d !important; 
+  color: #e71414 !important; 
 }
 
 .welcome-message {
@@ -115,29 +117,26 @@ body::before {
   
   .pastel-details {
     margin-top: 15px;
+    
+
   }
   
   h3 {
-    color: #0056b3;
+    color: #ffffff;
     margin-bottom: 10px;
   }
   
-  /* Rodapé */
+ 
   footer {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    font-size: 1.2rem; 
+    text-align: center;
   }
   
-  footer a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
+ 
 
   .bg {
     background-color: #b4230f;
@@ -149,7 +148,6 @@ body::before {
     text-align: center;
   }
   
-  /* Seção de Horário de Funcionamento e Atenção */
   .container {
     padding: 30px;
   }
@@ -173,5 +171,12 @@ body::before {
     padding: 20px 0;
     margin-bottom: 20px;
   }
+
+  body,p {
+    color: #000000 !important;
+    font-size: 1.2em;
+  }
+
+
   
   
